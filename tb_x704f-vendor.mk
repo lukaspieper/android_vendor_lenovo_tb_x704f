@@ -107,16 +107,33 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/tb_x704f/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lenovo/tb_x704f/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/lenovo/tb_x704f/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-    vendor/lenovo/tb_x704f/proprietary/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
-    vendor/lenovo/tb_x704f/proprietary/framework/org.apache.http.legacy.boot.jar:system/framework/org.apache.http.legacy.boot.jar \
+    vendor/lenovo/tb_x704f/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
+    vendor/lenovo/tb_x704f/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
+    vendor/lenovo/tb_x704f/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
+    vendor/lenovo/tb_x704f/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
+    vendor/lenovo/tb_x704f/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
+    vendor/lenovo/tb_x704f/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
+    vendor/lenovo/tb_x704f/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
+    vendor/lenovo/tb_x704f/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
+    vendor/lenovo/tb_x704f/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
+    vendor/lenovo/tb_x704f/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
+    vendor/lenovo/tb_x704f/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
+    vendor/lenovo/tb_x704f/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/lenovo/tb_x704f/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
+    vendor/lenovo/tb_x704f/proprietary/lib/libpower.so:system/lib/libpower.so \
+    vendor/lenovo/tb_x704f/proprietary/lib/libpowermanager.so:system/lib/libpowermanager.so \
     vendor/lenovo/tb_x704f/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/lenovo/tb_x704f/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
+    vendor/lenovo/tb_x704f/proprietary/lib64/fingerprint.default.so:system/lib64/fingerprint.default.so \
+    vendor/lenovo/tb_x704f/proprietary/lib64/gxfingerprint.default.so:system/lib64/gxfingerprint.default.so \
+    vendor/lenovo/tb_x704f/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/lenovo/tb_x704f/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
     vendor/lenovo/tb_x704f/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
     vendor/lenovo/tb_x704f/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
     vendor/lenovo/tb_x704f/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lenovo/tb_x704f/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
+    vendor/lenovo/tb_x704f/proprietary/lib64/libpower.so:system/lib64/libpower.so \
+    vendor/lenovo/tb_x704f/proprietary/lib64/libpowermanager.so:system/lib64/libpowermanager.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/bin/RIDLClient.exe:system/vendor/bin/RIDLClient.exe \
     vendor/lenovo/tb_x704f/proprietary/vendor/bin/esepmdaemon:system/vendor/bin/esepmdaemon \
     vendor/lenovo/tb_x704f/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
@@ -138,11 +155,14 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/hw/keystore.msm8953.so:system/vendor/lib/hw/keystore.msm8953.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/hw/sound_trigger.primary.msm8953.so:system/vendor/lib/hw/sound_trigger.primary.msm8953.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/hw/vulkan.msm8953.so:system/vendor/lib/hw/vulkan.msm8953.so \
+    vendor/lenovo/tb_x704f/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libAlacSwDec.so:system/vendor/lib/libAlacSwDec.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libApeSwDec.so:system/vendor/lib/libApeSwDec.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
+    vendor/lenovo/tb_x704f/proprietary/vendor/lib/libGPreqcancel.so:system/vendor/lib/libGPreqcancel.so \
+    vendor/lenovo/tb_x704f/proprietary/vendor/lib/libGPreqcancel_svc.so:system/vendor/lib/libGPreqcancel_svc.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libOmxAlacDec.so:system/vendor/lib/libOmxAlacDec.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libOmxAlacDecSw.so:system/vendor/lib/libOmxAlacDecSw.so \
@@ -171,6 +191,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libaudiodevarb.so:system/vendor/lib/libaudiodevarb.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
+    vendor/lenovo/tb_x704f/proprietary/vendor/lib/libbinder.so:system/vendor/lib/libbinder.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
@@ -291,6 +312,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/lenovo/tb_x704f/proprietary/vendor/lib/libgui.so:system/vendor/lib/libgui.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
@@ -326,6 +348,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libmmcamera_eeprom_util.so:system/vendor/lib/libmmcamera_eeprom_util.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libmmcamera_eztune_module.so:system/vendor/lib/libmmcamera_eztune_module.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
+    vendor/lenovo/tb_x704f/proprietary/vendor/lib/libmmcamera_faceproc2.so:system/vendor/lib/libmmcamera_faceproc2.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libmmcamera_isp_abf40.so:system/vendor/lib/libmmcamera_isp_abf40.so \
@@ -389,10 +412,12 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libmmsw_platform.so:system/vendor/lib/libmmsw_platform.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
+    vendor/lenovo/tb_x704f/proprietary/vendor/lib/libprotobuf-cpp-lite.so:system/vendor/lib/libprotobuf-cpp-lite.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libqcmaputils.so:system/vendor/lib/libqcmaputils.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/lenovo/tb_x704f/proprietary/vendor/lib/libqisl.so:system/vendor/lib/libqisl.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
@@ -412,6 +437,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+    vendor/lenovo/tb_x704f/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
@@ -419,10 +445,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libsregex.so:system/vendor/lib/libsregex.so \
+    vendor/lenovo/tb_x704f/proprietary/vendor/lib/libsync.so:system/vendor/lib/libsync.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libtar.so:system/vendor/lib/libtar.so \
-    vendor/lenovo/tb_x704f/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
+    vendor/lenovo/tb_x704f/proprietary/vendor/lib/libui.so:system/vendor/lib/libui.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
@@ -432,6 +459,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/lenovo/tb_x704f/proprietary/vendor/lib/soundfx/libswdap.so:system/vendor/lib/soundfx/libswdap.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
@@ -463,9 +491,12 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
+    vendor/lenovo/tb_x704f/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
+    vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
+    vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
@@ -486,6 +517,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libaudiodevarb.so:system/vendor/lib64/libaudiodevarb.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
+    vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libbinder.so:system/vendor/lib64/libbinder.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libc2d30-a5xx.so:system/vendor/lib64/libc2d30-a5xx.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
@@ -494,6 +526,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
+    vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libcryptfs_hw.so:system/vendor/lib64/libcryptfs_hw.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
@@ -513,6 +546,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
+    vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libgui.so:system/vendor/lib64/libgui.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
@@ -535,10 +569,12 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libmmQSM.so:system/vendor/lib64/libmmQSM.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
+    vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libprotobuf-cpp-lite.so:system/vendor/lib64/libprotobuf-cpp-lite.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
+    vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
@@ -568,6 +604,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libsdm-diag.so:system/vendor/lib64/libsdm-diag.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libsdm-disp-apis.so:system/vendor/lib64/libsdm-disp-apis.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
+    vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
@@ -575,10 +612,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libsubsystem_control.so:system/vendor/lib64/libsubsystem_control.so \
+    vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libsync.so:system/vendor/lib64/libsync.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
-    vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
-    vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libtime_genoff.so:system/vendor/lib64/libtime_genoff.so \
+    vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libui.so:system/vendor/lib64/libui.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/lenovo/tb_x704f/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
@@ -595,8 +632,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/tb_x704f/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
+    libthermalclient \
     libts_detected_face_hal \
     libts_face_beautify_hal \
+    libtime_genoff \
     TimeService \
     datastatusnotification \
     fastdormancy \
@@ -607,16 +646,5 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     ims \
     imssettings \
-    ConnectivityExt \
-    cneapiclient \
-    com.qti.dpmframework \
-    com.qti.location.sdk \
-    com.qualcomm.location.vzw_library \
-    com.quicinc.cne \
-    dpmapi \
-    imscmlibrary \
-    izat.xt.srv \
-    qcrilhook \
-    qti-telephony-common \
-    rcsimssettings \
-    tcmclient
+    com.google.android.media.effects \
+    qcrilhook
