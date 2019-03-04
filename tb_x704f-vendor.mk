@@ -124,8 +124,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/tb_x704f/proprietary/lib/libpowermanager.so:system/lib/libpowermanager.so \
     vendor/lenovo/tb_x704f/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/lenovo/tb_x704f/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-    vendor/lenovo/tb_x704f/proprietary/lib64/fingerprint.default.so:system/lib64/fingerprint.default.so \
-    vendor/lenovo/tb_x704f/proprietary/lib64/gxfingerprint.default.so:system/lib64/gxfingerprint.default.so \
     vendor/lenovo/tb_x704f/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/lenovo/tb_x704f/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
     vendor/lenovo/tb_x704f/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
